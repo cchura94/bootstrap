@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Navbar Menú</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+		<a href="#" class="navbar-brand">Mi Pagina</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarTog" aria-controls="navbarTog" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarTog">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Productos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Galeria</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contactos</a>
+				</li>
+			</ul>
+
+		</div>
+
+	</nav>
+	<div class="container">
+
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#b">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="b" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Titulo de mi Modal</h5>
+        <button type="button" class="close" data-dismiss="al" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+        	<input type="text" class="form-control">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+	</div>
+	
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>	
+
+</body>
+</html>
